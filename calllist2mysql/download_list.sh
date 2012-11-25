@@ -1,4 +1,7 @@
 #!/bin/sh
+#
+#inspired by
+#http://www.wehavemorefun.de/fritzbox/Anrufliste_von_der_Box_holen
 
 # Challenge abholen
 ChallengeXML=`wget -O - "http://192.168.200.1/cgi-bin/webcm?getpage=../html/login_sid.xml" 2>/dev/null| grep Challenge`

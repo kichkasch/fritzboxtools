@@ -1,0 +1,6 @@
+#!/bin/sh
+
+test -f /opt/calllist2mysql/download_list.sh || exit 0
+cd /opt/calllist2mysql
+sh download_list.sh
+

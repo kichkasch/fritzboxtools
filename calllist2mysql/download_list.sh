@@ -7,7 +7,7 @@
 ChallengeXML=`wget -O - "http://192.168.200.1/cgi-bin/webcm?getpage=../html/login_sid.xml" 2>/dev/null| grep Challenge`
 Challenge=`echo $ChallengeXML | awk '{match($0,/>[^<>]+</); print substr($0,RSTART+1,RLENGTH-2)}'`
 
-Passwd="*****"
+Passwd="****"
 TmpFile="/tmp/fb_anrufliste.csv"
 
 # login aufbauen und hashen

@@ -1,0 +1,14 @@
+myHost = "localhost"
+myUser = "fb_user"
+myPw = "****"
+myDB = "fb_db"
+myTable = "calllog"
+
+fileName = "/tmp/fb_anrufliste.csv"
+
+doLdapLookup = True	# or False
+ldapHost = "localhost"
+ldapDC = "dc=domain,dc=local"
+countryCode = "+49"	# put your country code here (+49 for Germany)
+localCode = "30"	# put your "local code" here (30 for Berlin; NO leading 0!!!)
+

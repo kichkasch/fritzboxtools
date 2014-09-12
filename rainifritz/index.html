@@ -1,0 +1,17 @@
+<html>
+<head> <title> Thunderbird Adressbuch Export zu Fritzbox Backup konvertieren </title> </head>
+
+<body>
+
+<h3>Kruecke, um Thunderbird Adressbuch (manuell) in die Fritzbox zu laden</h3>
+
+<ol>
+<li>Thunderbird/Adressbuch oeffnen und das gewuenschte Adressbuch links in der Liste auswaehlen. Unter Tools auf Export gehen und eine <emph>CSV-Datei</emph> erzeugen. Diese lokal speichern.</li>
+<li>Die erzeugte Datei hier unten auswaehlen und in Fritzbox-Format konvertieren. Datei lokal speichern.</li>
+<li>Auf die Fritzbox-Oberflaeche gehen. Dort Bereich Adressbuch auswaehlen und auf Wiederherstellung Adressbuch klicken. Die zuvor erstellte Datei dort eintragen.</li>
+</ol>
+<form action="convert.php" method="post" enctype="multipart/form-data">
+<input type="file" name="csv" value="" />
+<input type="submit" name="submit" value="Erzeuge Fritzbox Backup Datei" /></form>
+</body>
+</html>
